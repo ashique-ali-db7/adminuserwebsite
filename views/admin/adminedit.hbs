@@ -1,0 +1,17 @@
+
+<div class="p-5">
+<form action="/edit-user?email={{userdata.email}}"  method="post" id="edit">
+<h1>Edit user</h1>
+  <div class="mb-3">
+    <label  class="form-label">firstname</label>
+    <input type="text" class="form-control" style="width: 50%;" name="firstname" value="{{userdata.firstname}}">
+   
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label">lastname</label>
+    <input type="text" class="form-control" name="lastname" value="{{userdata.lastname}}" style="width: 50%;">
+  </div>
+ 
+  <button type="submit" id="editbutton" class="btn btn-primary">Edit</button>
+</form>
+</div>

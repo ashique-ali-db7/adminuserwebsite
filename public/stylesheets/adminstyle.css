@@ -1,0 +1,31 @@
+*{
+    /* removing default margin and padding */
+    margin: 0%;
+    padding: 0%;
+    /* The CSS box-sizing property allows us to include the padding and border in an element's total width and height */
+    box-sizing: border-box; 
+  }
+  
+  body{
+    background-color: #f6f6f6;
+  } 
+  
+  .main-body-admin{
+    padding: 3% 11% 15%; 
+   background-color: #f6f6f6;
+   
+   }
+
+.login-form-div-admin{
+    border: solid 2px rgb(78, 76, 76);
+    padding: 3% 5%;
+    width: 40%;
+    height: auto;
+}
+
+
+.hai{
+  
+    text-align: center;
+    color: rgb(39, 39, 184);
+}

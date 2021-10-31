@@ -1,0 +1,41 @@
+
+<div class="container p-5">
+
+<form action="/createuser" method="post" id="user-create" style="width: 50%;" class="ms-auto me-auto">
+
+ <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">First name</label>
+    <input type="text" name="firstname" class="form-control">
+  
+  </div>
+
+   <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Last name</label>
+    <input type="text" name="lastname" class="form-control">
+  
+  </div>
+
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Email address</label>
+    <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+    <p style="color: red;">{{emailError}}</p>
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label">Password</label>
+    <input type="password" name="password" class="form-control" id="exampleInputPassword1">
+    <p style="color: red;">{{passwordError}}</p>
+  </div>
+
+   <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label">Confirm Password</label>
+    <input type="password" name="confirmpassword" class="form-control" id="exampleInputPassword1">
+  </div>
+  {{!-- <div class="mb-3 form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+  </div> --}}
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+</div>
